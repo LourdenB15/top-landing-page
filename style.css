@@ -6,6 +6,8 @@ body {
     margin: 0;
 }
 
+/* ----------Header---------- */
+
 header {
     color: #F9FAF8;
     background-color: #1F2937;
@@ -86,4 +88,43 @@ li,
 .para {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+/* -------First Section------- */
+
+.firstSec {
+    padding: 50px 175px 100px;
+    text-align: center;
+}
+
+.infoHead {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-bottom: 50px;
+}
+
+.boxSec {
+    display: flex;
+    justify-content: center;
+}
+
+.boxGro {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    align-items: center;
+}
+
+.box {
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3B82F6;
+    border-radius: 15px;
+}
+
+.boxCap {
+    color: #545E6B;
+    padding: 5px 25px 0;
 }
